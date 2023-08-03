@@ -1,0 +1,10 @@
+.Home{
+    display: grid;
+}
+.Home h1{
+    border-bottom: 2px solid lightgreen;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
