@@ -20,7 +20,7 @@ const Card = ({id, handleRemoveButton, img, title, text }) => {
             {isLess || isSmall ? text : `${text.slice(0, limit)}...`}
           </p>
           <button className="readMore" onClick={() => handleTextLength(id)}>
-            {isLess || isSmall ? "Read More" : "Read Less"}
+          {isLess || isSmall ? "Read Less" : "Read More"}
           </button>
           <button onClick={() => handleRemoveButton(id)}>Not Interested</button>
         </div>
