@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <h1>Our Tours</h1>
-      <button onClick={handleRefresh}>Refresh</button>
+      {cards.length <= 0 && <button onClick={handleRefresh}>Refresh</button>}
       <div className="card-container">
         {cards.map((card) => (
           <Card
